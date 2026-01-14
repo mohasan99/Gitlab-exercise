@@ -1,9 +1,9 @@
 name: Deployment Exercise 1
 on:
-  push
+  push:
 jobs:
   deploy:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
      - name: Get code
        uses: actions/checkout@v3
